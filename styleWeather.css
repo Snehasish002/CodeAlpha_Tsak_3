@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0; 
+    font-family:Arial ;
+    border: border-box ;
+    font-family: "poppins", sans-serif;
+}
+
+
+.sub_btn {
+    padding: 5px 5%;
+    color: rgb(0, 132, 255);
+    
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: 20px;
+}
+
+.sub_btn:hover {
+    background: rgb(0, 132, 255);
+    color: white;
+}
+
+#weatherHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+   
+    text-align: center; /* This will center the text horizontally */
+}
+
+
+#wnow {
+    color: rgb(0, 132, 255);
+    text-transform: none;
+}
+.container {
+    margin-top: 40px;
+}
+
+.list-unstyled {
+    font-size: large;
+    font-weight: 600;
+    color: rgb(3, 73, 73);
+}
+
+.col {
+    
+    padding: 30px;
+}
+
+
